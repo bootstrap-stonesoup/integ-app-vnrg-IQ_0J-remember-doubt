@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-tfh4
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/bootstrap/nbe-e2e-teje-tenant/integ-app-vnrg/hacbs-test-project-tfh4@sha256:76e5fbb928099bd327f2516b1f02f9f94faadc91f19bb84f91e8f6e9a3a66d13
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
